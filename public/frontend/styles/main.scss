@@ -1,0 +1,1145 @@
+// font family
+    // font-family: 'Assistant', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
+    // font-family: 'Playfair Display', serif;
+// ---------------------------------------------------------
+
+// =================UNIVERSAL SCREEN===================
+    *{
+        scroll-behavior: smooth;
+        outline: none;
+    }
+
+    body{
+        background-color: #ffffff;
+    }
+
+    .navbar-brand{
+        img{
+            max-height: 30px;
+        }
+    }
+
+    .placeholder-nav{
+        background-color: #2d3436;
+
+        ul{
+            li{
+                span{
+                    color: #e6e6e6;
+                }
+            }
+        }
+    }
+    nav{
+        font-family: 'Assistant', sans-serif;
+        background-color: transparent;
+        font-size: .8em;
+        font-weight: 200;
+        .nav-item .active{
+        font-weight: 400;
+        }
+        .btn-login{
+            background-color: transparent;
+            transition: .2s ease;
+            color: #fff;
+            border: 1px solid rgb(206, 206, 206);
+            &:hover{
+                background-color: rgb(238, 238, 238);
+                color: #000;
+            }
+            &:active{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    // header
+    header{
+        background-image: url('../images/header/Group\ 5.jpg');
+        background-size: cover;
+        height: 550px;
+        margin-top: -70px;
+        padding: 160px 0 160px;
+        h1{
+            font-family: 'Playfair Display', serif;
+            font-size: 25px;
+            font-weight: 800;
+
+            .title-click{
+                color: #2ed573;
+                font-family: 'Assistant', sans-serif;
+            }
+        }
+        p{
+            font-size: 14px;
+        }
+
+        h1,p{
+            color: #fff;
+        }
+
+        // tombol get started
+        .btn-getStarted{
+            margin-top: 100px !important;
+            background-color: #01C476;
+            transition: .3s;
+            font-size: 1.1em;
+            font-weight: 600;
+            padding: 10px 20px 10px !important;
+
+            &:hover{
+                background-color: rgb(28, 230, 149);
+                color: #fff;
+            }
+            &:active{
+                transform: scale(1.1);
+            }
+            
+        }
+
+    }
+    // akhir header
+
+    main{
+
+        // divider
+        .divider-content{
+            margin: 50px 0px 50px;
+        }
+
+        // data statistik
+        .section-stats{
+            margin-top: 10px;
+        }
+        .stats-detail{
+            background-color: #fff;
+            margin-top: 10px;
+            padding-top: 15px;
+            padding-left: 55px;
+
+            h2{
+                margin-bottom: 0 !important;
+                font-size: 22px;
+                font-weight: 500;
+            }
+            p{
+                font-weight: 200;
+                color: #999898;
+            }
+        }
+
+        // popular
+        .section-popular-heading{
+            padding-top: 50px;
+
+            .popular-title{
+                h2{
+                    color: #138A79;
+                    font-weight: 300;
+                    font-size: 30px;
+                }
+                margin-bottom: 60px;
+            }
+        }
+
+        .section-popular-content{
+            .card-travel{
+                padding: 15px;
+                min-height: 300px;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                .country-name{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: .8em;
+                    font-weight: 200;
+                    color: #acac;
+                }
+
+                .location-name{
+                    color: #fff;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                .button-card{
+                    transition: .3s ease;
+                    
+                    a{
+                        font-weight: 400;
+                        color: #fff;
+                        background-color: #01C476;
+                        transition: .3s ease;
+                        
+                        &:hover{
+                            background-color: rgb(8, 226, 139);
+                        }
+                        &:active{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+
+        // section background
+        .section-background{
+            padding-top: 200px;
+            margin-top: -180px;
+            height: 400px;
+            background-color: rgb(3, 26, 22);
+        }
+
+        .section-testimonial-heading{
+            font-size: 22px;
+            color: #fff;
+            font-weight: 200;
+            margin-top: -60px;
+            margin-bottom: 50px;
+        }
+
+        .section-testimonial-content{
+                    .testimonial-nama{
+                        color: #138A79;
+                        font-family: 'Assistant', sans-serif;
+                    }
+                    .testimonial-trip{
+                        color: #656565 !important;
+                        font-size: 12px;
+                    }
+                    .card-testimonial{
+                        margin: 20px;
+                        border-radius: 30px 30px 30px 0px;
+                        padding:15px;
+                        min-height: 270px;
+                        box-shadow: 0px 0px 4px 0px grey;
+                    }
+        }
+
+        .section-button-cta-bottom{
+            margin-top: 100px;
+
+            .btn-need-help{
+                font-size: 10px;
+                background-color: rgb(240, 239, 239);
+                color: rgb(190, 185, 185);
+                transition: .3s ease;
+                &:hover{
+                    background-color: rgb(247, 247, 247);
+                    color: rgb(190, 185, 185);
+                }
+                &:active{
+                    transform: scale(1.1);
+                }
+            }
+
+            .btn-get-started{
+                font-size: 10px;
+                background-color: #01C476;
+                color: #fff;
+                transition: .3s ease;
+                &:hover{
+                    background-color: rgb(6, 223, 136);
+                }
+                &:active{
+                    transform: scale(1.1);
+                }
+            }
+        }
+
+        .section-partner-heading{
+            margin-top: 150px;
+            margin-bottom: 60px;
+            h2{
+                color: #138A79;
+                font-weight: 300;
+                font-size: 25px;
+                margin-bottom: 0px !important;
+            }
+            p{
+                color: #969595;
+                font-size: 13px;
+            }
+        }
+
+        .section-partner-content{
+            .card-partner{
+                height: 270px;
+                padding: 30px 0px 10px;
+                background-color: #fff;
+                margin-bottom: 10px;
+            }
+            .partner-name{
+                color: #138A79;
+                font-size: 18px;
+            }
+            .partner-skill{
+                font-size: 14px;
+                color: #999898;
+            }
+        }
+
+
+    }
+
+    .section-footer{
+        background-color: rgb(116, 116, 116);
+        padding: 50px 0px 50px;
+        margin-top: 150px;
+
+        h4{
+            font-size: 20px;
+            color: rgb(8, 148, 127);
+            margin-bottom: 0px !important;
+        }
+        a{
+            text-decoration: none;
+            font-weight: 300;
+            line-height: 19px;
+            font-size: 15px;
+            color: #9F9F9F;
+        }
+
+        .copyright-footer{
+            margin-top: 50px;
+            color: rgb(93, 199, 181);
+            font-weight: 300;
+            font-size: 16px;
+        }
+    }
+
+    /*===================HALAMAN DETAILS universal========================*/
+    .nav-detail{
+        background-color: #185B52 !important;
+    }
+
+    main{
+
+    .section-details-header{
+        margin-top: -85px;
+        min-height: 300px;
+        background:linear-gradient(#DFDADA, #fff) ;
+    }
+
+    .section-details-content{
+        min-height: 70vh;
+
+        .breadcrumb{
+            font-weight: 300;
+            margin-top: -210px;
+            background-color: transparent;
+        }
+        .breadcrumb-item{
+            color: #7e7e7e;
+        }
+
+        .breadcrumb .active{
+            color: #2d3436;
+            font-weight: 400;
+        }
+    }
+
+    .section-details-card{
+        border-radius: 5px;
+        background-color: #fff;
+        margin-top: -170px;
+        padding: 20px 0px 20px;
+        width: 100%;
+        box-shadow: 0px 0px 2px .2px grey;
+
+        .details-heading{
+            margin: 0px 20px ;
+            h1{
+            margin-bottom: 0px !important;
+            font-size: 16px;
+            font-weight: 400;
+            color: black;
+            }
+            p{
+                color: #777777;
+                font-size: 10px;
+                margin-top: 2px !important;
+            }
+        }
+
+        .details-image{
+            height: 100%;
+            background-color: #acacac;
+        }
+
+        .details-description{
+            font-size: 13px;
+            margin: 10px 15px;
+            span{
+                font-weight: 700;
+            }
+        }
+
+        .details-features{
+            margin: 20px;
+            .col-md-4{
+                margin: 5px 0px;
+                img{
+                    width: 45px;
+                    height: 45px;
+                    float: left;
+                    margin-right: 5px;
+                }
+                h6{
+                    font-weight: bold;
+                    font-size: 15px;
+                    margin-bottom: 0;
+                    padding: 0;
+                }
+                p{
+                    font-size: 13px;
+                    margin: 0;
+                }
+                .description{
+                    margin-top: 7px;
+                }
+            }
+        }
+
+        .gallery{
+            .xzoom-container{
+                display: block;
+
+                .xzoom{
+                    box-shadow: none;
+                    width:100%;
+                    max-height: 245px;
+                }
+                }
+                .xzoom-thumbs{
+                    margin-top: 2px;
+            }
+        }
+
+    }
+
+    // detail card information right side
+    .details-card-information{
+        margin-top: 40px;
+        padding: 15px;
+        border-radius: 3px 3px 0px 0px;
+        h2{
+            font-size: 17px;
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 25px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .members{
+            img{
+                margin-bottom: 0px;
+                height:30px;
+                width:30px;
+            }
+        }
+
+        h6{
+            font-size: 13px;
+            font-weight: 700;
+        }
+
+        tr{
+            th{
+                font-size: 11px;
+                width: 130px;
+            }
+            td{
+                font-size: 10px;
+                font-weight: 600;
+                color: #888888;
+            }
+        }
+
+        .btn-join-trip{
+            color: #fff;
+            font-size: 15px;
+            font-weight: 500;
+            border-radius: 0px;
+            margin: 20px -15px -20px;
+            background-color: #01C476;
+            transition: .3s ease;
+
+            &:hover{
+                background-color: rgb(7, 219, 134);
+            }
+        }
+
+        form{
+            .btn-join-trip{
+                color: #fff;
+                font-size: 15px;
+                font-weight: 500;
+                border-radius: 0px;
+                width: 113%;
+                background-color: #01C476;
+                transition: .3s ease;
+    
+                &:hover{
+                    background-color: rgb(7, 219, 134);
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// =========divider=========divider=============divider===========divider=========================
+// =====divider=====================divider==========divider===========divider======
+// ===================divider====================divider===============divider===================
+// =====divider========divider========divider============divider============divider============================
+
+
+
+
+
+
+
+
+
+
+
+
+// ==================DESKTOP SCREEN=========================
+@media (min-width: 992px) { 
+    // navbar
+    nav{
+
+        .navbar-brand{
+            img{
+                max-height: 40px;
+            }
+        }
+        
+        font-family: 'Assistant', sans-serif;
+        font-size: 15px;
+        font-weight: lighter;
+        .nav-item .active{
+        font-weight: 500;
+        }
+        .btn-login{
+            font-size: 12px;
+            background-color: transparent;
+            transition: .2s ease;
+            color: #fff;
+            border: 1px solid rgb(206, 206, 206);
+            &:hover{
+                background-color: rgb(238, 238, 238);
+                color: #000;
+            }
+            &:active{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    //header
+header{
+            background-image: url('../images/header/Group\ 5.jpg');
+            background-size: cover;
+            height: 655px;
+            margin-top: -70px;
+            padding: 235px 0 165px;
+            h1{
+                font-family: 'Playfair Display', serif;
+                font-size: 45px;
+                font-weight: 800;
+
+                .title-click{
+                    color: #2ed573;
+                    font-family: 'Assistant', sans-serif;
+                }
+            }
+            p{
+                font-size: 18px;
+            }
+
+            h1,p{
+                color: #fff;
+            }
+            // akhir header
+    
+
+        .btn-getStarted{
+            margin-top: 100px !important;
+            background-color: #01C476;
+            transition: .3s;
+            font-size: 1.3em;
+            font-weight: 600;
+            padding: 10px 30px 10px !important;
+
+            &:hover{
+                background-color: rgb(28, 230, 149);
+                color: #fff;
+            }
+            &:active{
+                transform: scale(1.1);
+            }
+            
+        }
+    }
+
+    // main
+    main{
+
+        // DATA STATISTIK
+        .section-stats{
+            margin-top: -50px;
+        }
+        .stats-detail{
+            background-color: #fff;
+            margin-top: 10px;
+            padding-top: 15px;
+            padding-left: 55px;
+    
+            h2{
+                margin-bottom: 0 !important;
+                font-size: 28px;
+            }
+        }
+    
+
+    
+    // popular
+    .section-popular-heading{
+        padding-top: 50px;
+
+        .popular-title{
+            h2{
+                color: #138A79;
+                font-weight: 300;
+                font-size: 30px;
+            }
+            margin-bottom: 60px;
+        }
+    }
+
+    .section-popular-content{
+        .card-travel{
+            min-height: 295px;
+            background-size: cover;
+            
+
+            .country-name{
+                font-family: 'Montserrat', sans-serif;
+                font-size: .8em;
+                font-weight: 200;
+                color: rgba(255, 255, 255, 0.8);
+                z-index: 2;
+            }
+
+            .location-name{
+                color: #fff;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 18px;
+                z-index: 2;
+                font-weight: 400;
+            }
+
+            .button-card{
+                color: #fff;
+                z-index: 2;
+                transition: .3s ease;
+                
+                a{
+                    font-weight: 400;
+                    background-color: #01C476;
+                    transition: .3s ease;
+                    
+                    &:hover{
+                        background-color: rgb(8, 226, 139);
+                        color: #fff;
+
+                        &:active{
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+
+        .card-travel::after{
+            content: "";
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            right: 0;
+            left: 0;
+            opacity: .4;
+            z-index: 1;
+        }
+    }
+
+    .section-networks{
+        margin: 100px -200px 0px;
+        .networks-title{
+            h3{
+                font-size: 30px;
+                color: #fff;
+                margin-bottom: 0;
+            }
+            p{
+                color: rgb(180, 180, 180);
+                line-height: 17px;
+                font-size: 12px;
+            }
+        }
+    }
+
+    // section background
+    .section-background{
+        margin-top: -170px;
+        height: 320px;
+    }
+
+    .section-testimonial-heading{
+        font-size: 30px;
+        color: #fff;
+        font-weight: 300;
+        margin-top: -80px;
+        margin-bottom: 50px;
+    }
+
+    .section-testimonial-content{
+                .testimonial-nama{
+                    color: #138A79;
+                    font-family: 'Assistant', sans-serif;
+                }
+                .testimonial-trip{
+                    color: #656565 !important;
+                    font-size: 12px;
+                }
+                .card-testimonial{
+                    background-color: #fff;
+                    margin: 20px;
+                    border-radius: 30px 30px 30px 0px;
+                    padding:35px 20px 20px !important;
+                    min-height: 270px;
+                    box-shadow: 0px 0px 4px 0px grey;
+                }
+
+                .testimonial-pesan{
+                    color: #757474;
+                    font-weight: lighter;
+                    font-size: 15px;
+                    line-height: 18px;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+    }
+
+    .section-partner-heading{
+        margin-top: 150px;
+        margin-bottom: 60px;
+        h2{
+            color: #138A79;
+            font-weight: 300;
+            font-size: 30px;
+            margin-bottom: 0px !important;
+        }
+        p{
+            color: #969595;
+        }
+    }
+
+    .section-partner-content{
+        .card-partner{
+            height: 270px;
+            padding: 35px 0px 10px;
+            background-color: #fff;
+        }
+        .partner-name{
+            color: #138A79;
+            font-size: 18px;
+        }
+        .partner-skill{
+            font-size: 14px;
+            color: #999898;
+        }
+    }
+
+    .section-button-cta-bottom{
+        margin-top: 150px;
+
+        .btn-need-help{
+            font-size: 18px;
+            background-color: rgb(240, 239, 239);
+            color: rgb(190, 185, 185);
+            transition: .3s ease;
+            &:hover{
+                background-color: rgb(247, 247, 247);
+                color: rgb(190, 185, 185);
+            }
+            &:active{
+                transform: scale(1.1);
+            }
+        }
+
+        .btn-get-started{
+            font-size: 18px;
+            background-color: #01C476;
+            color: #fff;
+            transition: .3s ease;
+            &:hover{
+                background-color: rgb(6, 223, 136);
+            }
+            &:active{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+    // FOOOTER
+    .section-footer{
+        background-color: #185B52;
+        padding: 50px 0px 50px;
+        margin-top: 150px;
+
+        h4{
+            font-size: 20px;
+            color: rgb(8, 148, 127);
+            margin-bottom: 0px !important;
+        }
+        a{
+            text-decoration: none;
+            font-weight: 300;
+            line-height: 19px;
+            font-size: 15px;
+            color: #9F9F9F;
+        }
+
+        .copyright-footer{
+            margin-top: 50px;
+            color: rgb(93, 199, 181);
+            font-weight: 300;
+            font-size: 16px;
+        }
+    }
+
+
+
+
+
+/*==================== HALAMAN DETAILS desktop========================*/
+.nav-detail{
+    background-color: #185B52 !important;
+}
+
+main{
+
+.section-details-header{
+    margin-top: -67px;
+    min-height: 300px;
+    background:#185B52;
+}
+
+.section-details-content{
+    min-height: 60vh;
+
+    .breadcrumb{
+        font-weight: 300;
+        margin-top: -210px;
+        background-color: transparent;
+    }
+    .breadcrumb-item{
+        color: #7e7e7e;
+    }
+
+    .breadcrumb .active{
+        color: #2d3436;
+        font-weight: 400;
+    }
+}
+
+.section-details-card{
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: -140px;
+    padding: 20px 0px 20px;
+    width: 520px;
+    box-shadow: 0px 0px 2px .2px grey;
+
+    .details-heading{
+        margin: 0px 20px ;
+        h1{
+        margin-bottom: 0px !important;
+        font-size: 20px;
+        font-weight: 400;
+        color: black;
+        }
+        p{
+            color: #777777;
+            font-size: 12px;
+            margin-top: 2px !important;
+        }
+    }
+
+    .details-image{
+        height: 290px;
+        background-color: #acacac;
+    }
+
+    .details-description{
+        font-size: 14px;
+        margin: 10px 15px;
+        span{
+            font-weight: 700;
+        }
+    }
+
+    .details-features{
+        margin: 20px;
+        .col-md-4{
+            img{
+                width: 45px;
+                height: 45px;
+                float: left;
+                margin-right: 5px;
+            }
+            h6{
+                font-weight: bold;
+                font-size: 12px;
+                margin-bottom: 0;
+                padding: 0;
+            }
+            p{
+                font-size: 11px;
+                margin: 0;
+            }
+            .description{
+                margin-top: 7px;
+            }
+        }
+    }
+
+    .gallery{
+        .xzoom-container{
+            display: block;
+
+            .xzoom{
+                box-shadow: none;
+                width:100%;
+                max-height: 245px;
+            }
+            }
+            .xzoom-thumbs{
+                margin-top: -30px;
+        }
+    }
+
+}
+
+.details-card-information{
+    margin-top: -140px;
+    padding: 20px;
+    border-radius: 3px 3px 0px 0px;
+    h2{
+        font-size: 19px;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .members{
+        img{
+            margin-bottom: 0px;
+            height:44px;
+            width:46px;
+        }
+    }
+
+    h6{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    tr{
+        th{
+            font-size: 14px;
+            width: 170px;
+            font-weight: 400;
+        }
+        td{
+            font-size: 14px;
+            font-weight: 400;
+            color: #888888;
+        }
+    }
+
+    .btn-join-trip{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        border-radius: 0px;
+        margin: 30px -20px -20px;
+        background-color: #01C476;
+        transition: .3s ease;
+
+        &:hover{
+            background-color: rgb(7, 219, 134);
+        }
+    }
+}
+}
+
+// ===============CHECKOUT DESKTOP============
+nav{
+    ul{
+        li{
+            .motto{
+                font-size: 14px;
+                font-weight: 200;
+            }
+        }
+    }
+}
+
+main{
+    .section-details-header-checkout{
+        margin-top: -67px;
+        min-height: 300px;
+        background-color: rgb(233, 233, 233);
+    }
+
+    .attendee{
+        table{
+            tr{
+                th{
+                    font-family: 'Assistant', sans-serif;
+                    font-weight: 500;
+                    color: #6d6d6d;
+                }
+                td{
+                    color: #707070;
+                }
+            }
+        }
+    }
+
+    .member{
+        .form-row{
+            .form-group{
+                .btn-add-member{
+                    background-color: #185B52;
+                    color: white;
+                    transition: .3s ease;
+
+                    &:hover{
+                        background-color: #23bb62;
+                    }
+                }
+            }
+        }
+
+        .note-checkout{
+            h6{
+                font-weight: 600;
+                font-size: 14px;
+            }
+            p{
+                font-size: 12px;
+                line-height: 12px;
+            }
+        }
+    }
+
+    .payment-method{
+        h4{
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .row{
+            .col{
+                img{
+                    float: left;
+                    margin-top: 10px;
+                }
+                p{
+                    color: #6e6d6d;
+                    font-weight: 400;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+// ================SUCCESS CHECKOUT=======
+.nav-success-checkout{
+    background-color: transparent;
+}
+main{
+    .background-success-checkout{
+        margin: -68px 0px 0px;
+        height: 200px;
+        width: 100%;
+        background-color: rgb(8, 66, 57);
+    }
+    .section-success-checkout{
+        margin: -60px 0px 0px;
+        h1{
+            font-size: 30px;
+            font-family: 'Assistant', sans-serif;
+            color: rgb(224, 224, 224);
+            margin-bottom: 50px;
+        }
+
+        img{
+            width: 200px;
+        }
+        p{
+            margin-top: 20px;
+            font-size: 17px;
+            font-family: 'Assistant', sans-serif;
+            color: #9F9F9F;
+            font-weight: 200;
+            line-height: 18px;
+        }
+
+        .btn-success-checkout{
+            font-size: 17px;
+            margin-top: 20px;
+            font-weight: 600;
+            color: #fff;
+            transition: .3s ease;
+            padding: 8px 50px;
+            background-color: #01C476;
+            &:hover{
+                background-color: #2ed573;
+            }
+        }
+
+        span{
+            color:#01C476;
+        }
+    }
+}
+
+
+
+
+
+
+
+}
+
+
+
